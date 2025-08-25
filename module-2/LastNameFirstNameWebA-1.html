@@ -1,0 +1,148 @@
+<html>
+<title>Zachary Smith - Hobbies</title>
+
+<head>
+    <style>
+        body {
+            background-color: rgb(84, 84, 84);
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            text-align: left;
+            border: none;
+            box-sizing: border-box;
+        }
+
+        h1 {
+            background-color: rgb(158, 158, 158);
+            color: rgb(255, 222, 178);
+            text-align: center;
+            padding-bottom: 5px;
+        }
+
+        h2 {
+            color: antiquewhite;
+        }
+
+        .signature {
+            background-color: rgb(158, 158, 158);
+            text-align: right;
+            font-size: small;
+            font-weight: bold;
+            color: rgb(84, 84, 84);
+            padding-right: 10px;
+        }
+
+        .info {
+            color: antiquewhite;
+            font-size: small;
+        }
+
+        .image {
+            height: 150px;
+            width: 150px;
+            border: 2px solid antiquewhite;
+            border-radius: 5px;
+        }
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .offeset-img {
+            object-position: center 100%;
+        }
+
+        .hobby {
+            width: 40%;
+            padding: 5px;
+            margin: 0px 5px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .flex {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+
+        }
+
+        .flex>.hobby:last-child {
+            margin-right: auto;
+        }
+
+        a {
+            color: rgb(255, 222, 178);
+        }
+
+        a:hover {
+            color: rgb(255, 219, 110);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>My Hobbies:</h1>
+    </header>
+    <div>
+        <div class="flex">
+            <!-- Hobby 1 -->
+            <div class="hobby">
+                <h2>Playing Video Games</h2>
+                <p class="info">I play a lot of multiplayer games online with my friends. Recently I've been playing <a
+                        href="https://en.bandainamcoent.eu/elden-ring/elden-ring" target="_blank" >Elden Ring</a>.</p>
+                <p class="image"><img
+                        src="https://cdn.musicboard.app/musicboard/media/uciZyESJiwfKJFBqMUc25GVRfyHYNufakI95R3GiwE5QfkWXIuPI6YtR2y7ntaqF.webp"
+                        alt="Elden Ring Logo"></p>
+            </div>
+            <!-- Hobby 2 -->
+            <div class="hobby">
+                <h2>Painting</h2>
+                <p class="info">I'm an amateur, but I'm trying to learn how to paint. I've always been bad at it so I'm
+                    trying to get better. <a href="https://pdimagearchive.org/infinite-view/" target="_blank">Here</a>
+                    is a
+                    massive gallery of public domain art for inspiration.</p>
+                <p class="image"><img
+                        src="https://the-public-domain-review.imgix.net/collections/mighty-mikko/mikko-1.jpg?fit=clip&w=936&h=800&auto=format,compress"
+                        alt="Public Domain Art"></p>
+            </div>
+            <!-- Hobby 3 -->
+            <div class="hobby">
+                <h2>Reading</h2>
+                <p class="info">I've always enjoyed reading since I was a kid. Right now I'm reading <a
+                        href="https://www.amazon.com/War-Flowers-Tad-Williams/dp/075640181X" target="_blank">War of the
+                        Flowers</a> by Tad Williams.</p>
+                <p class="image"><img class="offeset-img"
+                        src="https://images.penguinrandomhouse.com/cover/9780756415587" alt="Book Cover">
+                </p>
+            </div>
+            <!-- Hobby 4 -->
+            <div class="hobby">
+                <h2>Magic the Gathering</h2>
+                <p class="info">I go to the card / game store twice per week to play <a
+                        href="https://magic.wizards.com/en/intro" target="_blank" >MtG</a> with 3 of my friends.</p>
+                <p class="image"><img
+                        src="https://upload.wikimedia.org/wikipedia/en/thumb/a/aa/Magic_the_gathering-card_back.jpg/250px-Magic_the_gathering-card_back.jpg"
+                        alt="Magic the Gathering Logo"></p>
+            </div>
+            <!-- Hobby 5 -->
+            <div class="hobby">
+                <h2>Piano</h2>
+                <p class="info">I teach myself songs off of youtube. I used to get lessons when I first moved out here
+                    but had to stop them because the instructor kept asking for more and more money. Anyways, <a
+                        href="https://youtu.be/k7yaL4_OzGA?si=oX8PirRCKBmiwFyh" target="_blank">here's</a> a song from a Video Game that
+                    I'm slowly learning how to play.</p>
+                <p class="image"><img
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRK-_oCyMNRntzUch7Pi9Qbt8UNi5pyQPnPmw&s"
+                        alt="Piano"></p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p class="signature">Zachary Smith</p>
+    </footer>
+</body>
+
+</html>
